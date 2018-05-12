@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Bahiana:regular);
 *{
   padding: 0;
   margin: 0;
@@ -6,5 +7,45 @@
 body{
   font-family: Arial, Helvetica, sans-serif;
   background-color: #b4b4b4;
+  /* margin: 0em 4em; */
+}
+#banner h1{
+  margin: 0 2em;
+  font-family: 'Bahiana';
+  color: #fff;
+  font-size: 4em;
+  text-align: center;
+}
+
+#banner{
+  display: grid;
+  background-color: #000;
+}
+
+.siteLinks{
+  margin: 0 4em;
+  display: grid;
+  grid-row-gap: 2em;
+}
+.navItems{
+list-style-type: none;
+background-color: slategray;
+text-align: center;
+display: grid;
+/* grid-column-gap: ; */
+}
+.navItems i{
+  font-size: 8em;
   
+}
+.navItems a{
+  color: #000;
+  text-decoration: none;
+}
+.navItems a:hover{
+  color: #fff;
+}
+
+.navItems a:visited{
+  color: #000;
 }
