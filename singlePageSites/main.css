@@ -8,6 +8,7 @@ body{
   background-color: #b4b4b4;
 
 }
+/* #region banner */
 #banner{
   background-color: rgb(42, 66, 85);
   margin-bottom: 1.5em;
@@ -19,43 +20,40 @@ body{
   font-family: 'Bahiana';
   font-size: 8em;
 }
-
-
-.content li{
+/* #endregion */
+/* #region main content */
+.content ul{
   display: grid;
-  grid-template: 0;
-  grid-row-gap: .75em;
-  margin: 0 4em;
+  grid-row-gap: 1em;
+  margin: 0 4em
+
 }
-#navItems{
+.navItems{
   background-color: slategray;
-  border: 2px lightslategray;
-  
+  border: 2px darkolivegreen solid;
 }
-#navItems i{
+.navItems i{
   font-size: 8em;
   
 }
-#navItems a{
+.navItems a{
   color: #000;
   text-decoration: none;
 }
-i:hover{
-  color:#b4b4b4;
-  
-}
-#navItems a:visited{
+
+.navItems a:visited{
   color: #000;
 }
+/* #endregion */
 
-
+/* list properties */
 .links li{
   list-style-type: none;
   text-align: center;
   
 }
 
-
+/* #region site footer */
 .footer{
   background-color: rgb(42, 66, 85);
   margin-top: 1.4em;
@@ -67,15 +65,33 @@ i:hover{
 .footer h1{
   font-size: 0.25em;
 
-}facebook:hover{
-color: blue;
 }
-#insta:hover{
+/* #endregion */
+/* #region  Icon colours*/
+/*icon colours*/
+#facebook i:hover{
+  color: blue;
+}
+#insta i:hover{
   color: peru;
 }
-#twitter:hover{
-  color: lightblue;
+#twitter i:hover{
+  color: rgb(95, 202, 238);
 }
-#youtube:hover{
+#youtube i:hover{
   color: red;
 }
+/* cell bgc */
+.links #facebook:hover{
+  background-color: seashell ;
+}
+.links #insta:hover{
+  background-color: purple;
+}
+.links #twitter:hover{
+  background-color: beige;
+}
+.links #youtube:hover{
+  background-color: whitesmoke;
+}
+/* #endregion */
