@@ -67,4 +67,15 @@ i:hover{
 .footer h1{
   font-size: 0.25em;
 
+}facebook:hover{
+color: blue;
+}
+#insta:hover{
+  color: peru;
+}
+#twitter:hover{
+  color: lightblue;
+}
+#youtube:hover{
+  color: red;
 }
