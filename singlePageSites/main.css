@@ -25,16 +25,20 @@ body{
 .content ul{
   display: grid;
   grid-row-gap: 1em;
-  margin: 0 4em
-
+  margin: 0 4em;
+  grid-template-columns: minmax(75%, 50%);
+  grid-template-rows: 1fr;
+  justify-content: center;
+  
 }
 .navItems{
   background-color: slategray;
   border: 2px darkolivegreen solid;
+  
 }
 .navItems i{
   font-size: 8em;
-  
+
 }
 .navItems a{
   color: #000;
@@ -50,6 +54,7 @@ body{
 .links li{
   list-style-type: none;
   text-align: center;
+  border-radius: 1em;
   
 }
 
@@ -57,13 +62,15 @@ body{
 .footer{
   background-color: rgb(42, 66, 85);
   margin-top: 1.4em;
+  display: grid;
+  grid-template-columns: 3fr;
 }
 .footer li{
   color: #fff;
-  font-size: 2.5em;
+  font-size: 1.75em;
 }
 .footer h1{
-  font-size: 0.25em;
+  font-size: 0.75em;
 
 }
 /* #endregion */
