@@ -86,9 +86,8 @@ i:hover{
 .wrapper a:link{
   text-decoration: none;
 }
-
-/* #startregion */
-
+/* #endregion wrapper */
+/* #region  footer*/
 footer ul{
   display: block;
   background-color: steelblue;
@@ -96,3 +95,4 @@ footer ul{
   bottom: 0;
   width: 100%;
 }
+/* #endregion footer */
